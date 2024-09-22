@@ -1,0 +1,56 @@
+.footer-bg {
+  background-color: rgba(110, 236, 165, 0.35);
+  max-height: 90px; /* review */
+  padding-top: 2vh; /* review */
+  padding-bottom: 2vh; /* review */
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 150px;
+  gap: 100px;
+}
+.footer-content {
+  font-size: 16px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+.footer-content a {
+  color: #3a2823;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+.footer-content a:hover {
+  color: rgba(46, 31, 27, 0.75);
+}
+.footer-content a,
+span {
+  grid-column: 1;
+}
+.footer-content p {
+  font-size: 13px;
+  color: rgba(77, 62, 58, 1);
+  grid-column: 2;
+}
+
+.footer-content p {
+  display: inline-block;
+  position: relative;
+}
+.footer-content p::before {
+  content: "";
+  display: block;
+  height: 50px;
+  width: 1px;
+  position: absolute;
+  background: rgba(75, 178, 120, 0.38);
+  left: -20px;
+  top: -10px;
+  /* 
+
+  */
+}

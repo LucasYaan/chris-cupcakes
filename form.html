@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Formulário de Inscrição</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Daniel Ribeiro Pauleti & Lucas Yan de Oliveira Gomes">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+	<header class="topnav-bg">
+		<div class="topnav container">
+			<a href="home.html">LOGO</a>
+			<a href="form.html">Inscreva-se!</a>
+			<a href="cursos.html">Cursos</a>
+			<a href="about.html">Sobre Nós</a>
+		</div>
+	</header>
+	<main class="contato-form-content container">
+		<div class="contato">
+			<h1>Contato</h1>
+			<div class="contato-content">
+				<p>chriscupcakes@gmail.com</p>
+				<p>+55 11 9999-9999</p>
+			</div>
+			<div class="contato-redes">
+				<a href="./">
+					<img src="./img/facebook.svg" alt="facebook">
+				</a>
+				<a href="./">
+					<img src="./img/instagram.svg" alt="instagram">
+				</a>
+				<a href="./">
+					<img src="./img/youtube.svg" alt="youtube">
+				</a>
+			</div>
+		</div>
+		<div class="formulario">
+			<h1>Formulário de Inscrição</h1>
+			<form autocomplete="off" method="post">
+				<label for="nome">Nome: </label>
+				<input type="text" name="nome" required>
+				<br>
+				<label for="email">Email:&nbsp</label>
+				<input type="email" name="email" required>
+				<br>
+				<label for="cursos">Curso escolhido: </label>
+				<select name="cursos">
+					<option value="iniciante">Iniciante</option>
+					<option value="decoração">Decoração</option>
+					<option value="gourmet">Gourmet</option>
+				</select>
+				<br>
+				<label for="alergia">Você tem alguma alergia ou restrição alimentar?</label>
+				<br>
+				<textarea name="alergia" rows="4" cols="30"></textarea>
+				<br>
+				<input type="checkbox" name="termos" value="aceito" required>
+				<label for="termos" class="small">Li e aceito os termos e condições do curso</label><br>
+				<input type="checkbox" name="comunicacao" value="aceito">
+				<label for="comunicacao" class="small">Aceito receber novidades e promoções por email</label>
+				<br>
+				<br>
+				<br>
+				<input type="submit" value="Enviar"></button>
+			</form>
+		</div>
+	</main>
+	<footer class="footer-bg">
+		<div class="footer container">
+			<div class="footer-content">
+				<a href="form.html">Contato</a>
+				<p>Para tirar dúvidas sobre nossos <br>produtos ou sobre nossos cursos!</p>
+			</div>
+			<div class="footer-content">
+				<span>Integrantes</span>
+				<p>Daniel Ribeiro Pauleti <br>Lucas Yan de Oliveira Gomes</p>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

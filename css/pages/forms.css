@@ -1,0 +1,132 @@
+.contato-form-content {
+  display: grid;
+  grid-template-columns: 400px 500px;
+  padding: 40px 0;
+}
+.contato {
+  background-color: #fcbdf3;
+  place-content: center;
+  padding-bottom: 15%;
+}
+.contato h1 {
+  color: #3a2823;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contato-content {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 50px;
+  padding-left: 80px;
+}
+.contato-content p:first-child {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.contato-content p:first-child::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../img/envelope.svg");
+  position: absolute;
+  left: -30px;
+  top: 1px;
+}
+.contato-content p:last-child {
+  position: absolute;
+}
+.contato-content p:last-child::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../img/telephone.svg");
+  position: absolute;
+  left: -30px;
+  top: 1px;
+}
+.contato-redes {
+  display: flex;
+  gap: 10px;
+  padding-left: 50px;
+}
+.contato-redes a {
+  padding-right: 10px;
+}
+.formulario {
+  background-color: #fff;
+  justify-items: center;
+  color: #3a2823;
+  max-width: 600px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.small {
+  font-size: small;
+}
+.formulario h1 {
+  text-align: center;
+}
+input[type="text"] {
+  padding: 6px 20px;
+  margin: 8px 2px;
+  box-sizing: border-box;
+  width: 80%;
+}
+input[type="text"]:focus {
+  padding: 6px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+input[type="email"] {
+  padding: 6px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 80%;
+}
+input[type="email"]:focus {
+  padding: 6px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+select {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: rgba(110, 236, 165, 0.35);
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #fcbdf3;
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+  padding: 10px 10px;
+  width: 85%;
+}
+textarea:focus {
+  resize: none;
+  background-color: #f8f8f8;
+}

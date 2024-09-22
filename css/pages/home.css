@@ -1,0 +1,14 @@
+.home {
+  display: grid;
+  grid-template-columns: 450px 600px;
+  padding: 0px 50px;
+  text-align: center;
+  align-items: center;
+}
+
+.home img {
+  max-width: 450px;
+}
+.home span {
+  grid-column: 2;
+}

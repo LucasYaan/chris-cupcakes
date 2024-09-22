@@ -1,0 +1,32 @@
+body,
+a,
+p,
+h1 {
+  margin: 0px;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  color: #3a2823;
+  height: 100vh;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+footer {
+  background-color: rgba(110, 236, 165, 0.35);
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
