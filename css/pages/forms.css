@@ -19,6 +19,9 @@
   margin-bottom: 50px;
   padding-left: 80px;
 }
+.contato-content p {
+  text-align: center;
+}
 .contato-content p:first-child {
   margin-bottom: 10px;
   position: relative;

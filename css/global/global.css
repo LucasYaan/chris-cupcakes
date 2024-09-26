@@ -1,7 +1,8 @@
 body,
 a,
 p,
-h1 {
+h1,
+ul {
   margin: 0px;
 }
 body {
@@ -29,4 +30,9 @@ footer {
   max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
 }

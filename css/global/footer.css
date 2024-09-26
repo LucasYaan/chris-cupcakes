@@ -1,13 +1,13 @@
 .footer-bg {
   background-color: rgba(110, 236, 165, 0.35);
-  max-height: 90px; /* review */
-  padding-top: 2vh; /* review */
-  padding-bottom: 2vh; /* review */
+  max-height: 80px;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
 }
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px 150px;
+  padding: 18px 150px;
   gap: 100px;
 }
 .footer-content {

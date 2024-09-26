@@ -2,19 +2,28 @@
   background-color: rgba(110, 236, 165, 0.35);
 }
 .topnav {
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.topnav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 .topnav a:first-child {
-  float: left;
+  padding: 8px 0;
 }
-.topnav a {
+.topnav-menu a {
+  display: inline-block;
   color: #3a2823;
-  float: right;
   text-align: center;
-  padding: 20px 20px;
   text-decoration: none;
   font-size: 18px;
+  padding: 20px 0;
 }
-.topnav a:hover {
-  background-color: rgba(110, 236, 165, 0.15);
+#logo {
+  width: 90px;
 }
