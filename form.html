@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+	<script src="./javascript/script.js"></script>
 </head>
 
 <body>
@@ -43,7 +44,7 @@
 		</div>
 		<div class="formulario">
 			<h1>Formulário de Inscrição</h1>
-			<form autocomplete="off" method="post">
+			<form autocomplete="off" method="post" onsubmit="formSubmitted(); return true;">
 				<label for="nome">Nome: </label>
 				<input type="text" name="nome" required>
 				<br>
