@@ -2,6 +2,7 @@ body,
 a,
 p,
 h1,
+h2,
 ul {
   margin: 0px;
 }
@@ -35,4 +36,9 @@ footer {
 ul {
   padding: 0px;
   list-style: none;
+}
+img {
+  max-height: 100%;
+  height: auto;
+  display: block;
 }

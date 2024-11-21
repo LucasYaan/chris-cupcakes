@@ -1,0 +1,49 @@
+.curso-bg {
+  background: linear-gradient(to right, #f7f7f7 25%, #fcbdf3 25%);
+}
+.curso {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 60px 0;
+}
+
+.curso-img img {
+  height: 325px;
+}
+
+.curso-img-g img {
+  width: 365px;
+}
+
+.curso-img,
+.curso-img-g {
+  display: flex;
+  justify-content: center;
+}
+
+.curso-conteudo {
+  margin: auto 0;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.curso-conteudo h2 {
+  font-size: 1.75rem;
+  margin-bottom: 25px;
+}
+
+.curso-conteudo p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.curso-conteudo li {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}
+
+.curso-conteudo li:nth-child(even) {
+  margin: 15px 0;
+}
